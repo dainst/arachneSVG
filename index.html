@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Arachne SVG Viewer</title>
+    </head>
+
+    <body>
+        <div id="svg-container">
+            <embed style="display: none" type="image/svg+xml" src="/path/to/my/file.svg" id="svg-embed"/>
+        </div>
+        <div container id="metadata-container">
+            <div id="title"></div>
+            <div id="modeller"></div>
+            <div id="license"></div>
+            <div id="format"></div>
+        </div>
+    </body>
+
+    <script src="node_modules/svg-pan-zoom/dist/svg-pan-zoom.js"></script>
+    <script src="js/viewer.js"></script>
+</html>
